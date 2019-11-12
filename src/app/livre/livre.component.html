@@ -1,0 +1,7 @@
+<img [src]="t1.couverture"/>
+<ul>
+    <li><strong>{{ t1.titre }}</strong></li>
+    <li>Prix : {{ t1.prix }}</li>
+    <li>Date Edition : {{ months[(t1.dateEdition).getMonth()] }} - {{ (t1.dateEdition).getFullYear() }}</li>
+    <li>Donnez un % de promotion : <input type="number" /></li><p></p>
+</ul>

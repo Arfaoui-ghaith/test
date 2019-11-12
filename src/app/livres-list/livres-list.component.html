@@ -1,0 +1,4 @@
+<li *ngFor="let l1 of livres">
+<app-livre [t1]="l1"></app-livre>
+</li>
+<p>Donnez un prix maximum : </p><input type="number"  value=""/><button (click)="calcul()">Nombre de livres</button><p>{{ count }}</p>
